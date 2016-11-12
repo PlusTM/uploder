@@ -15,7 +15,7 @@ _TELEGRAM_ **UPLODER(API) BOT:)**
 
 5 : $ cd ..
 
-6 : $ $ git clone https://github.com/PlusTM/uploder
+6 : $ git clone https://github.com/PlusTM/uploder
 
 7 : Set **TOKEN** TO _up.py_
 
