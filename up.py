@@ -1,4 +1,4 @@
--- @PLUSTM
+#@PLUSTM
 import telebot
 from telebot import types
 from telebot import util
@@ -20,7 +20,6 @@ token = "289642373:AAGqjFEr1q3BcdKaqH8Vc7Y4Kzqp8Hdy80I"
 bot = telebot.TeleBot(token)
 opizo_email = 'mrx2121mrx@gmail.com'
 
-#by @black1m
 
 @bot.message_handler(regexp='^/start')
 def te(m):
@@ -60,7 +59,7 @@ def te(m):
 def te(m):
    bot.send_message(m.chat.id,' /feedback [TEXT]\n\n \xE2\x9C\x8Csend your message For YONES\xE2\x9C\x8C')
 
-# Uploader Bot By @black1m
+# Uploader Bot By @plustm
 
 @bot.message_handler(commands=['stats'])
 def m(m):
@@ -70,7 +69,7 @@ def m(m):
           em = redis.scard('msgs')
           bot.send_message(m.chat.id,'*Files Uploaded:* _{}_\n*Users:* _{}_\n*All Messages:* _{}_'.format(file,msm,em),parse_mode='Markdown')
 
-# Uploader Bot By @MosyDev
+# Uploader Bot By @PLUSTM
 
 @bot.message_handler(content_types=['video','photo','sticker','document','audio','voice'])
 def all(m):
