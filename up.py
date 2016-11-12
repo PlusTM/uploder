@@ -1,6 +1,4 @@
-# Uploader Bot By @MosyDev
-
-# -*- coding: utf-8 -*-
+-- @PLUSTM
 import telebot
 from telebot import types
 from telebot import util
@@ -109,6 +107,5 @@ def all(m):
   except:
    bot.send_message(m.chat.id,link1)
 
-#by @black1m
 
 bot.polling(True)
